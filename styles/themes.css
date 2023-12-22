@@ -4,3 +4,61 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-dark {
+  --FontWeightNormal: 465;
+  --FontWeightBold: 785;
+  --ThemesBackground: #000;
+  --ThemesColor: #00cc14;
+  --BackgroundImage: repeating-linear-gradient(
+      #000,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(90deg, #000, #000 2px, #007f0c 2px, #004306 4px);
+  --BorderColor: #00cc14;
+  --AnimationColor: #00cc14;
+  --red: red;
+}
+
+:root.theme-light {
+  --FontWeightNormal: 400;
+  --FontWeightBold: 700;
+  --ThemesBackground: #fff;
+  --ThemesColor: #000;
+  --BackgroundImage: repeating-linear-gradient(
+      #d3d3d3,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #d3d3d3,
+      #d3d3d3 2px,
+      #e7e7e7 2px,
+      #1a1a1a 4px
+    );
+  --BorderColor: #000;
+  --AnimationColor: #fff;
+  --red: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --FontWeightNormal: 465;
+    --FontWeightBold: 785;
+    --ThemesBackground: #000;
+    --ThemesColor: #00cc14;
+    --BackgroundImage: repeating-linear-gradient(
+        #000,
+        #000 2px,
+        transparent 2px,
+        transparent 4px
+      ),
+      repeating-linear-gradient(90deg, #000, #000 2px, #007f0c 2px, #004306 4px);
+    --BorderColor: #00cc14;
+    --AnimationColor: #00cc14;
+    --red: red;
+  }
+}
