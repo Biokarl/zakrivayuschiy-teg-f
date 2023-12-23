@@ -503,16 +503,25 @@
         onclick="window['dialog-id'].showModal();"
         aria-controls="dialog-id"
       >
-        <svg class="footer__floppy-small" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
-          <use href="./svg/floppy.svg#floppy" />
-        </svg>
+        <div class="floppy-wrap">
+          <svg
+            class="footer__floppy-small"
+            width="40"
+            height="40"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <use href="./svg/floppy.svg#floppy" />
+          </svg>
+        </div>
         <span class="button__text">Сохранить на память</span>
       </button>
       <dialog id="dialog-id" class="dialog">
         <div class="dialog__content">
-          <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <use href="./svg/floppy.svg#floppy" />
-          </svg>
+          <div class="floppy-wrap">
+            <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+              <use href="./svg/floppy.svg#floppy" />
+            </svg>
+          </div>
           <span class="dialog__text">Вставьте дискету, чтобы продолжить</span>
         </div>
         <button class="close dialog__ok" type="button" onclick="window['dialog-id'].close();">

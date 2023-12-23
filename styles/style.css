@@ -17,7 +17,7 @@
 .page {
   max-width: 700px;
   margin: 0 auto;
-
+  min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--Inter), sans-serif;
   font-variation-settings: "wght" var(--FontWeightNormal);
@@ -28,6 +28,13 @@
   background-size: cover;
   background-attachment: fixed;
   /* overflow-x: hidden; */
+}
+
+.floppy-wrap {
+  position: relative;
+  stroke: var(--AnimationColor);
+  fill: var(--AnimationColor);
+  mix-blend-mode: difference;
 }
 
 .header {
@@ -206,8 +213,7 @@
 }
 
 .card__like-button {
-  width: 130px;
-  height: 38px;
+  padding: 9px 35px;
   font-family: var(--PressStart2P), serif;
   border: 2px solid var(--BorderColor);
 }
