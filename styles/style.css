@@ -52,7 +52,8 @@
 
 .header__title {
   margin-bottom: 20px;
-  font-size: clamp(3.063rem, 1.894rem + 4.984vw, 4.063rem);
+  font-size: clamp(3.063rem, 2.211rem + 4.255vw, 4.063rem);
+  /* font-size: clamp(3.063rem, 1.894rem + 4.984vw, 4.063rem); */
 }
 
 .header__subtitle {
@@ -367,13 +368,6 @@ dialog::backdrop {
     min-height: 327px;
   }
 
-  .header__title {
-    font-size: clamp(0.063rem, 0.063rem + 12.8vw, 3.063rem);
-  }
-
-  .header__subtitle {
-    font-size: clamp(0.063rem, 0.063rem + 5.867vw, 1.438rem);
-  }
   .card_label {
     top: 24px;
     right: 11px;
