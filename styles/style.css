@@ -17,7 +17,6 @@
 .page {
   max-width: 700px;
   margin: 0 auto;
-  min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--Inter), sans-serif;
   font-variation-settings: "wght" var(--FontWeightNormal);
@@ -27,7 +26,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  /* overflow-x: hidden; */
 }
 
 .floppy-wrap {
@@ -361,11 +359,12 @@ dialog::backdrop {
 }
 
 @media (width <= 375px) {
-  .page {
-    max-width: 375px;
-  }
   .header {
     min-height: 327px;
+  }
+
+  .header__title {
+    font-size: clamp(1.25rem, -9.295rem + 52.727vw, 3.063rem);
   }
 
   .card_label {
