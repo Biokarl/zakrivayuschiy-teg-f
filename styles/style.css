@@ -143,7 +143,7 @@
   padding: 5px 10px;
   font-size: 18px;
   letter-spacing: 0.1px;
-  font-weight: var(--FontWeightBold);
+  font-variation-settings: var(--FontWeightBold);
 }
 
 .card__wrapper {
@@ -209,6 +209,36 @@
   height: 38px;
   font-family: var(--PressStart2P), serif;
   border: 2px solid var(--BorderColor);
+}
+
+/* Темы для карточек */
+
+.brightness {
+  filter: brightness(30%);
+}
+
+.contrast {
+  filter: contrast(55%);
+}
+
+.grayscale {
+  filter: grayscale(0.9);
+}
+
+.saturate {
+  filter: saturate(177%);
+}
+
+.hue-rotate {
+  filter: hue-rotate(-45deg);
+}
+
+.sepia {
+  filter: sepia(90%);
+}
+
+.mix {
+  filter: sepia(40%) grayscale(0.3) brightness(132%) saturate(20%) hue-rotate(90deg);
 }
 
 .button__text {
@@ -322,42 +352,20 @@ dialog::backdrop {
   flex-shrink: 0;
 }
 
-/* Темы для карточек */
-
-.brightness {
-  filter: brightness(30%);
-}
-
-.contrast {
-  filter: contrast(55%);
-}
-
-.grayscale {
-  filter: grayscale(0.9);
-}
-
-.saturate {
-  filter: saturate(177%);
-}
-
-.hue-rotate {
-  filter: hue-rotate(-45deg);
-}
-
-.sepia {
-  filter: sepia(90%);
-}
-
-.mix {
-  filter: sepia(40%) grayscale(0.3) brightness(132%) saturate(20%) hue-rotate(90deg);
-}
-
 @media (width <= 375px) {
   .page {
     max-width: 375px;
   }
   .header {
     min-height: 327px;
+  }
+
+  .header__title {
+    font-size: clamp(0.063rem, 0.063rem + 12.8vw, 3.063rem);
+  }
+
+  .header__subtitle {
+    font-size: clamp(0.063rem, 0.063rem + 5.867vw, 1.438rem);
   }
   .card_label {
     top: 24px;
