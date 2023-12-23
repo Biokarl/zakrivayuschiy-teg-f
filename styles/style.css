@@ -32,7 +32,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  font-family: var(--PressStart2P);
+  font-family: var(--PressStart2P), serif;
   text-transform: uppercase;
   background: var(--ThemesBackground);
   border: 2px solid var(--BorderColor);
@@ -157,7 +157,7 @@
   right: 25px;
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  font-family: var(--PressStart2P);
+  font-family: var(--PressStart2P), serif;
   text-shadow: 0 0 3px var(--ThemesBackground);
   font-size: 14px;
 }
@@ -207,7 +207,7 @@
 .card__like-button {
   width: 130px;
   height: 38px;
-  font-family: var(--PressStart2P);
+  font-family: var(--PressStart2P), serif;
   border: 2px solid var(--BorderColor);
 }
 
@@ -276,7 +276,7 @@ button {
 .footer__button {
   background: var(--ThemesBackground);
   border: 2px solid var(--BorderColor);
-  font-family: var(--PressStart2P);
+  font-family: var(--PressStart2P), serif;
   display: flex;
   align-items: center;
   padding: 5px 15px;
@@ -293,7 +293,7 @@ dialog::backdrop {
   padding: 31px;
   background: var(--ThemesBackground);
   color: var(--ThemesColor);
-  font-family: var(--PressStart2P);
+  font-family: var(--PressStart2P), serif;
   font-size: 14px;
   text-transform: uppercase;
   border: 2px solid var(--ThemesColor);
