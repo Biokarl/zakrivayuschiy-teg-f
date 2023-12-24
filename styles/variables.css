@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --Inter: Inter;
-  --PressStart2P: "Press Start 2P";
+  --mainFont: Inter;
+  --secondaryFont: "Press Start 2P";
   --FontWeightNormal: 400;
   --FontWeightBold: 700;
   --ThemesBackground: #fff;
@@ -16,5 +16,5 @@
     repeating-linear-gradient(to top, #e7e7e7 0%, #1a1a1a 0.01%, #e7e7e7 100%);
   --BorderColor: #000;
   --AnimationColor: #fff;
-  --red: red;
+  --heart: red;
 }

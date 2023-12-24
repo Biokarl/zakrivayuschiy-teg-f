@@ -45,27 +45,27 @@
 }
 
 .card_like:active .core {
-  fill: var(--red);
+  fill: var(--heart);
   transition: fill 0.3s linear;
 }
 
 .card_like:active .main-body {
-  fill: var(--red);
+  fill: var(--heart);
   transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon.is-liked .contour {
-  fill: var(--red);
+  fill: var(--heart);
   transition: fill 0.3s linear 0.06s;
 }
 
 .like-icon.is-liked .main-body {
-  fill: var(--red);
+  fill: var(--heart);
   transition: fill 0.3s linear 0.03s;
 }
 
 .like-icon.is-liked .core {
-  fill: var(--red);
+  fill: var(--heart);
   transition: fill 0.3s linear;
 }
 

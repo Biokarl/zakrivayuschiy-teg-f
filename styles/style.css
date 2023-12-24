@@ -19,7 +19,7 @@
   margin: 0 auto;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--Inter), sans-serif;
+  font-family: var(--mainFont), sans-serif;
   font-variation-settings: "wght" var(--FontWeightNormal);
   background-color: var(--ThemesBackground);
   color: var(--ThemesColor);
@@ -40,7 +40,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  font-family: var(--PressStart2P), serif;
+  font-family: var(--secondaryFont), serif;
   text-transform: uppercase;
   background: var(--ThemesBackground);
   border: 2px solid var(--BorderColor);
@@ -91,7 +91,7 @@
   display: block;
   content: "";
   height: 2px;
-  width: 0%;
+  width: 0;
   -webkit-transition: width 0.3s ease;
   -moz--transition: width 0.3s ease;
   transition: width 0.3s ease;
@@ -166,7 +166,7 @@
   right: 25px;
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  font-family: var(--PressStart2P), serif;
+  font-family: var(--secondaryFont), serif;
   text-shadow: 0 0 3px var(--ThemesBackground);
   font-size: 14px;
 }
@@ -213,12 +213,6 @@
   outline: none;
 }
 
-.card__like-button {
-  padding: 9px 35px;
-  font-family: var(--PressStart2P), serif;
-  border: 2px solid var(--BorderColor);
-}
-
 /* Темы для карточек */
 
 .brightness {
@@ -259,6 +253,9 @@
 
 .button__theme {
   position: relative;
+  padding: 9px 35px;
+  font-family: var(--secondaryFont), serif;
+  border: 2px solid var(--BorderColor);
 }
 
 .button__theme:focus {
@@ -314,7 +311,7 @@ button {
 .footer__button {
   background: var(--ThemesBackground);
   border: 2px solid var(--BorderColor);
-  font-family: var(--PressStart2P), serif;
+  font-family: var(--secondaryFont), serif;
   display: flex;
   align-items: center;
   padding: 5px 15px;
@@ -331,7 +328,7 @@ dialog::backdrop {
   padding: 31px;
   background: var(--ThemesBackground);
   color: var(--ThemesColor);
-  font-family: var(--PressStart2P), serif;
+  font-family: var(--secondaryFont), serif;
   font-size: 14px;
   text-transform: uppercase;
   border: 2px solid var(--ThemesColor);

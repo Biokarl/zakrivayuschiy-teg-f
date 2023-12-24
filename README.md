@@ -1,1 +1,1 @@
-https://github.com/Biokarl/zakrivayuschiy-teg-f.git
+https://biokarl.github.io/zakrivayuschiy-teg-f/

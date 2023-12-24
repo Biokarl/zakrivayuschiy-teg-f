@@ -14,7 +14,7 @@
     repeating-linear-gradient(#007f0c 0%, #007f0c 0.01%, #004306 100%);
   --BorderColor: #00cc14;
   --AnimationColor: #00cc14;
-  --red: red;
+  --heart: red;
 }
 
 :root.theme-light {
@@ -32,7 +32,7 @@
     repeating-linear-gradient(to top, #e7e7e7 0%, #1a1a1a 0.01%, #e7e7e7 100%);
   --BorderColor: #000;
   --AnimationColor: #fff;
-  --red: red;
+  --heart: red;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,6 +46,6 @@
       repeating-linear-gradient(#007f0c 0%, #007f0c 0.01%, #004306 100%);
     --BorderColor: #00cc14;
     --AnimationColor: #00cc14;
-    --red: red;
+    --heart: red;
   }
 }
