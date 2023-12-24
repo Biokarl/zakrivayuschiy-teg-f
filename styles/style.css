@@ -203,10 +203,14 @@
   margin: 0 25px 23px 0;
 }
 
+.card__like-button {
+  display: flex;
+  align-items: center;
+}
+
 .card__theme-button {
   background: transparent;
   border: none;
-  padding: 0;
 }
 
 .card__theme-button:focus {
