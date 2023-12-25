@@ -193,7 +193,7 @@
 .card__desc {
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 0.51px;
+  /* letter-spacing: 0.51px; */
 }
 
 .card__buttons {
